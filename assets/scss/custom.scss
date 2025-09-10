@@ -1,0 +1,67 @@
+.custom-hero {
+  display: flex;
+  align-items: flex-end; /* 图片和文字底部对齐 */
+  justify-content: center; /* 内容居中 */
+  padding: 40px 20px;
+
+  img {
+    width: 420px; /* 图片放大到300px */
+    height: 420px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 24px;
+    border: 4px solid #007bff;
+    align-self: flex-end; /* 让图片向下对齐 */
+  }
+
+  .text-content {
+    max-width: 700px;
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #555;
+
+      strong {
+        color: #000;
+      }
+
+      span {
+        color: #007bff;
+      }
+    }
+  }
+}
+
+
+
+.recruitment-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.recruitment-text ul {
+  list-style-type: disc; /* 使用圆点 */
+  padding-left: 20px; /* 给列表项增加内边距 */
+}
+
+.recruitment-text ul li {
+  margin-bottom: 8px; /* 每个列表项之间增加间距 */
+}
+
+.recruitment-text p {
+  margin-bottom: 16px;
+}
+
+.recruitment-text strong {
+  color: #007bff; /* 强调的文字使用蓝色 */
+}
