@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://SCUT-Xinlab.github.io/sitemap.xml
