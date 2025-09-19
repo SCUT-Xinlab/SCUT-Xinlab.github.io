@@ -1,10 +1,10 @@
 ---
-title: 实验室团建活动
+title: Lab Team-Building Activity
 
-event: 实验室团建
+event: Lab Team-Building
 event_url: ''
 
-location: 广州市
+location: Guangzhou
 address:
   street: ''
   city: ''
@@ -12,8 +12,8 @@ address:
   postcode: ''
   country: ''
 
-summary: 2024年11月5日至6日，实验室成员进行了团建活动，增进了彼此的交流与合作。
-abstract: '2024年11月5日至6日，实验室成员共同参与了一场精彩的团建活动。活动包含团队游戏、户外探险和室内交流，促进了团队成员的凝聚力！'
+summary: From November 5 to 6, 2024, lab members participated in a team-building activity that enhanced mutual communication and collaboration.
+abstract: 'From November 5 to 6, 2024, lab members took part in an exciting team-building event. The activities included team games, outdoor adventures, and indoor discussions, which strengthened the cohesion among team members!'
 
 date: '2024-11-05T00:00:00Z'
 date_end: '2024-11-06T23:59:59Z'
@@ -22,12 +22,12 @@ all_day: true
 publishDate: '2024-11-07T00:00:00Z'
 
 authors: []
-tags: ['团建', '实验室活动']
+tags: ['Team-Building', 'Lab Activities']
 
 featured: false
 
 image:
-  caption: '实验室团建精彩瞬间'
+  caption: 'Wonderful moments from the team-building activity'
   focal_point: Right
 
 url_code: ''

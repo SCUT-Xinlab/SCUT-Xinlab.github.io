@@ -10,26 +10,25 @@ sections:
       css_class: "custom-hero"
       columns: "1"
     content:
-      # title: "张鑫"
+      # title: "Zhang Xin"
       image:
         filename: "person.png"
       text: |
-        <div class="text-content">
-        <h2>张鑫</h2>
-        <p>现任 <strong>华南理工大学电子与信息学院人工智能系主任、院长助理，未来技术学院脑科学研究中心副主任</strong>。研究方向包括
-        <span>机器学习</span>、<span>计算机视觉</span>、<span>智能人机交互</span> 和 <span>脑影像数据处理</span> 等。</p>
-        <p>本科毕业于 <strong>西北工业大学自动化学院</strong>，硕士和博士学位于 <strong>美国俄克拉荷马州立大学电子与计算机学院</strong>。
-        2018年-2020年获 <strong>国家留学基金委员会公派访问学者项目</strong> 资助，在
-        <strong>美国北卡罗莱纳州立大学教堂山分校</strong>
-        医学院数字影像中心访学，研究基于机器学习的
-        <span>婴幼儿脑影像</span> 及 <span>发育疾病分析</span> 等。</p>
-        </div>
+          <div class="text-content" style="font-size: 0.9em; line-height: 1.5;">
+            <h2>Xin Zhang</h2>
+            <p>Currently serving as <strong>Head of the Department of Artificial Intelligence, Assistant Dean of the School of Electronics and Information, South China University of Technology</strong>. Her research interests include
+            <span>Machine Learning</span>, <span>Computer Vision</span>, <span>Intelligent Human-Computer Interaction</span>, and <span>Brain Imaging Data Processing</span>.</p>
+            <p> From 2018 to 2020, she was sponsored as a visiting scholar at the
+            <strong>Biomedical Research Imaging Center, University of North Carolina at Chapel Hill</strong>, where she worked on machine learning-based research in
+            <span>Infant Brain Imaging</span> and <span>Neurodevelopmental Disorder Analysis</span>.</p>
+          </div>
+
 
 
   
   - block: collection
     content:
-      title: '📣 最新消息'
+      title: '📣 Latest News'
       subtitle:
       text:
       count: 4
@@ -68,7 +67,7 @@ sections:
 
   - block: collection
     content:
-      title: '📑 最新论文'
+      title: '📑 Latest Publications'
       text: ""
       count: 4
       filters:
@@ -82,18 +81,18 @@ sections:
 
   - block: markdown
     content:
-      title: '🚀 实验室招新'
+      title: '🚀 Join Our Lab'
       subtitle: ''
       text: |-
-        实验室的研究方向包括但不限于：计算机视觉、机器学习、医学数据分析（影像、病理、基因、病例等各种数据）、多模态大模型等。
+        Our lab's research areas include but are not limited to: computer vision, machine learning, medical data analysis (imaging, pathology, genomics, clinical records, etc.), and multi-modal large models.
 
-        我们欢迎新同学的加入，要求如下：
+        We welcome new members to join us. Requirements:
 
-        - 热爱钻研、目标明确、自律自驱
-        - 对人工智能领域的研究充满兴趣
-        - 具有一定的项目经验以及编程能力
+        - Passion for research, clear goals, self-discipline, and motivation
+        - Strong interest in artificial intelligence research
+        - Relevant project experience and programming skills
 
-        感兴趣的同学可以通过邮件发送个人简历：[点击这里发送邮件](mailto:eexinzhang@scut.edu.cn) 😃
+        If interested, please send your CV via email: [Click here to send email](mailto:eexinzhang@scut.edu.cn) 😃
     design:
       columns: '1'
       # background:
@@ -104,7 +103,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="实验室成员 →" %}}
+        {{% cta cta_link="./people/" cta_text="Lab Members →" %}}
     design:
       columns: '1'
 ---
