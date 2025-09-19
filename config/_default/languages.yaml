@@ -27,6 +27,7 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # English
+
 en:
   languageCode: en-us
   languageName: English
@@ -35,6 +36,7 @@ en:
   params:
     description: "A research lab focused on [your focus]."
   weight: 1
+  default: true  # 设置中文为默认语言（可选）
   
 
 # Chinese
@@ -46,4 +48,4 @@ zh:
   params:
     description: "一个专注于[你的研究方向]的实验室。"
   weight: 2
-  default: true  # 设置中文为默认语言（可选）
+  
